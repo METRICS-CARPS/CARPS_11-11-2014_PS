@@ -179,7 +179,7 @@ reportObject <- reproCheck(reportedValue = "52",
 reportObject <- reproCheck(reportedValue = "9.63", 
                            obtainedValue = t.out$statistic, valueType = 't')
 reportObject <- reproCheck(reportedValue = ".001", 
-                           obtainedValue = t.out$p.value, valueType = 'p', round = F)
+                           obtainedValue = t.out$p.value, valueType = 'p')
 ```
 
 >There were no significant differences between conditions in positive affect (pain condition: M = 3.05, SD = 0.82; no-pain condition: M = 2.80, SD = 0.83), 
@@ -429,7 +429,6 @@ reportObject <- reproCheck(reportedValue = "2.73",
 reportObject <- reproCheck(reportedValue = "3.55", 
                            obtainedValue = ci.out[2], valueType = 'ci')
 ```
-
 
 # Step 5: Conclusion
 
